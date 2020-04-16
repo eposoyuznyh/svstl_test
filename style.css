@@ -60,3 +60,7 @@ table.blueTable {
   .parent.closerow {
     background: #5592bb;
   }
+
+  .parent:not(.closerow) td {
+    border: 3px solid #5592bb;
+  }
